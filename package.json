@@ -1,0 +1,23 @@
+{
+  "name": "allons-y-events-manager",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodeCorico/allons-y-events-manager.git"
+  },
+  "author": "CodeCorico <hello@codecorico.com>",
+  "bugs": {
+    "url": "https://github.com/CodeCorico/allons-y-events-manager/issues"
+  },
+  "homepage": "https://github.com/CodeCorico/allons-y-events-manager",
+  "engines": {
+    "node": ">=4.1",
+    "npm": ">=3.2"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "events-manager": "^1.1.2"
+  }
+}
