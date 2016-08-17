@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = ['$gulp', function($gulp) {
+module.exports = function($gulp) {
 
   $gulp.task('eventsManager', function(done) {
     $gulp.src([
@@ -12,4 +12,4 @@ module.exports = ['$gulp', function($gulp) {
   });
 
   return 'eventsManager';
-}];
+};
