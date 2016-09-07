@@ -7,7 +7,7 @@ module.exports = function($gulp) {
       'node_modules/events-manager/events-manager.js',
       'node_modules/events-manager/events-manager.min.js'
     ])
-      .pipe($gulp.dest('./public/vendor'))
+      .pipe($gulp.dist('vendor'))
       .on('end', done);
   });
 
